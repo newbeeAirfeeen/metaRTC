@@ -7,7 +7,7 @@
 #include <yangutil/yangavinfotype.h>
 #include <yangutil/sys/YangMath.h>
 #include <string.h>
-#include <malloc.h>
+#include <yangutil/malloc.h>
 
 int yang_get_sortBuffer_index(YangSortFrame** a, int64_t value,int32_t alen){
 	int low,high,mid;

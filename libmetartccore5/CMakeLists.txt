@@ -25,6 +25,7 @@ include_directories(${HOME_BASE}/libmetartccore5/src)
 
 aux_source_directory(./src/yangutil/sys DIR_SRCS)
 aux_source_directory(./src/yangutil/buffer2 DIR_SRCS)
+aux_source_directory(./src/yangutil  DIR_SRCS)
 aux_source_directory(./src/yangavutil DIR_SRCS)
 aux_source_directory(./src/yangice DIR_SRCS)
 aux_source_directory(./src/yangsrs DIR_SRCS)

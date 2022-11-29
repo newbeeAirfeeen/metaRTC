@@ -5,7 +5,7 @@
 #include <yangutil/buffer2/YangMediaBuffer2.h>
 #include <yangutil/yangavinfotype.h>
 #include <string.h>
-#include <malloc.h>
+#include <yangutil/malloc.h>
 
 void yang_mediaBuffer2_resetIndex(YangMediaBufferSession2* session) {
 	session->putIndex = 0;
