@@ -41,12 +41,12 @@
 #define Yang_Enable_Dtls 1 //default:using dtls
 
 
-#define Yang_Enable_Timer_Phtread 0
+#define Yang_Enable_Timer_Phtread 1
 #define Yang_Enable_Ffmpeg_Codec 1
 
 //option lib
 #define Yang_Enable_PicUtilFfmpeg 0
-#define Yang_Enable_Websockets 1 //using libwebsockets
+#define Yang_Enable_Websockets 0 //using libwebsockets
 #define Yang_Enable_Curl 0   //using libcurl
 #define Yang_Enable_Json 0 //using jsonlib
 

@@ -9,7 +9,7 @@
 #ifdef _WIN32
 #define Yang_Enable_Timer_Phtread 1
 #else
-#define Yang_Enable_Timer_Phtread 0
+#define Yang_Enable_Timer_Phtread 1
 #endif
 
 typedef struct YangCTimer{
