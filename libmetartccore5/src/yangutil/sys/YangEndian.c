@@ -3,7 +3,7 @@
 //
 #include <yangutil/sys/YangEndian.h>
 #include <stdio.h>
-#include <malloc.h>
+#include <yangutil/malloc.h>
 #include <string.h>
 
 

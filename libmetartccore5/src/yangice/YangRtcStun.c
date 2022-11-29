@@ -15,7 +15,7 @@
 #include <yangutil/buffer/YangBuffer.h>
 #include <yangrtc/YangRtcRtcp.h>
 #include <stdint.h>
-
+#include <yangutil/endian.h>
 
 #include <stdlib.h>
 #include <string.h>
@@ -28,7 +28,6 @@
 #else
 #include <arpa/inet.h>
 #endif
-
 
 uint32_t yang_stun_encode_hmac2(char* hmac_buf, const int32_t hmac_buf_len,char** str)
 {

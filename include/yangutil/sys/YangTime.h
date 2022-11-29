@@ -4,8 +4,7 @@
 #ifndef YANG_TIME_H__
 #define YANG_TIME_H__
 
-
-
+#include <sys/time.h>
 
 #include <stdint.h>
 #ifdef __cplusplus
